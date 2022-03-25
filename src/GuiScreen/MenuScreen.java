@@ -6,7 +6,6 @@ import java.awt.Graphics;
 
 import javax.swing.JPanel;
 
-import DisplayGame.Game;
 import DisplayGame.GameObject.Button;
 
 import java.util.Random;
@@ -58,7 +57,7 @@ public class MenuScreen extends JPanel {
 //		g.drawString("Press 'C' to custommize your character", 75, 320);
 		
 		g.setFont(new Font("", Font.PLAIN, 15));
-		g.drawString("Made by Dung ©", 5, 452);
+		g.drawString("Made by Dung ï¿½", 5, 452);
 		
 		
 		g.setFont(new Font("", Font.PLAIN, 56));
