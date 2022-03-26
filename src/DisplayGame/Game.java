@@ -1,8 +1,5 @@
 package DisplayGame;
-import java.awt.Color;
-import java.awt.Font;
 import java.awt.Graphics;
-import java.awt.KeyboardFocusManager;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -11,14 +8,8 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.io.IOException;
-import java.net.Socket;
-import java.net.UnknownHostException;
 import java.util.Random;
 
 import javax.swing.Timer;
@@ -31,7 +22,6 @@ import GuiScreen.HelpScreen;
 import GuiScreen.MenuScreen;
 import GuiScreen.StoreScreen;
 import GuiScreen.SkillEffects.Explode;
-import DisplayGame.GameObject.Button;
 import gameMod.drawScreen;
 
 import javax.swing.JPanel;
